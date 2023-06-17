@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Matrices Imaginarias</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <button id="openModal">Abrir Calculadora</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Calculadora de Matrices Imaginarias</h2>
+            <form id="matrixForm">
+                <h3>Ingrese los elementos de la primera matriz:</h3>
+                <input type="text" id="a11" placeholder="a11" required>
+                <input type="text" id="a12" placeholder="a12" required>
+                <br>
+                <input type="text" id="a21" placeholder="a21" required>
+                <input type="text" id="a22" placeholder="a22" required>
+                <br>
+                <h3>Ingrese los elementos de la segunda matriz:</h3>
+                <input type="text" id="b11" placeholder="b11" required>
+                <input type="text" id="b12" placeholder="b12" required>
+                <br>
+                <input type="text" id="b21" placeholder="b21" required>
+                <input type="text" id="b22" placeholder="b22" required>
+                <br>
+                <button type="submit">Calcular</button>
+            </form>
+            
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
